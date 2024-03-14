@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Youtube clone app
+This is a YouTube clone application built using React and powered by RapidAPI. The app aims to replicate some of the core functionalities of YouTube, allowing users to browse videos, search for specific content, and view details about each video.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- **Browse Videos**: Users can browse through a list of videos fetched from the YouTube API.
+- **Search Functionality**: Users can search for specific videos by entering keywords.
+- **Video Playback**: Videos can be played directly within the application.
+- **Video Details**: Users can view detailed information about each video, including title, description, views, and likes.
+- **Channel Details**: Users can view profile details of the channel associated with each video, including channel name, profile picture, subscriber count, and description.
+- **Category-wise Videos**: Users can explore videos organized into different categories, allowing them to discover content based on their interests.
 
-In the project directory, you can run:
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
+- **RapidAPI**: RapidAPI is used to interact with the YouTube API and fetch video data.
+- **JavaScript**: JavaScript is used to add interactivity to the application, handle user actions, and manipulate DOM elements.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine.
+   ```sh
+   git clone <https://github.com/manivannan-sudha/youtube-clone>
+   ```
+2. Navigate to the project directory.
+    ```sh
+   cd youtube-clone
+    ```
+3. Install dependencies
 
-### `npm run build`
+      ```sh
+    npm install
+    ```
+4. Create a RapidAPI account and obtain an API key for the YouTube API.
+5. Create a .env file in the root directory of the project and add your RapidAPI key.
+    ```sh
+    REACT_APP_YOUTUBE_API_KEY=YOUR_API_KEY_HERE
+    ```
+6. Start the development server.
+    ```sh
+    npm start
+    ```
+7. Open your browser and navigate to http://localhost:3000 to view the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Upon launching the application, users will be presented with a list of trending videos.
+- Users can use the search bar to search for specific videos.
+- Clicking on a video thumbnail will open the video player, where users can watch the selected video.
+- Users can view video details by clicking on the video title or description.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/<feature-name>`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/<feature-name>`).
+6. Create a new Pull Request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- This project was inspired by the functionality of YouTube.
+- Thanks to RapidAPI for providing access to the YouTube API.
+- Special thanks to the React community for their invaluable resources and support.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+For any inquiries or feedback, please contact [manitinku38@gmail.com](mailto:manitinku38@gmail.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
+![Screenshot 2024-03-14 190806](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/3f0e6537-a7c4-4113-8a63-57ed3ba30034)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot 2024-03-14 191051](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/e5828d9c-ccde-4699-8591-3eb015b97fa6)
+![Screenshot 2024-03-14 191138](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/6f158c55-7f7d-41f1-924a-ca06221f34fa)
+![Screenshot 2024-03-14 191113](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/5cfd8031-b3b3-43ce-9a85-ef27c5aad88f)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/manivannan-sudha/youtube-clone/assets/96440547/5727dbad-9c55-48a5-83a3-d35cc5c698f2
