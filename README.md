@@ -1,5 +1,16 @@
 # Youtube clone app
 This is a YouTube clone application built using React and powered by RapidAPI. The app aims to replicate some of the core functionalities of YouTube, allowing users to browse videos, search for specific content, and view details about each video.
+## Screenshots
+
+![Screenshot 2024-03-14 190806](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/3f0e6537-a7c4-4113-8a63-57ed3ba30034)
+
+![Screenshot 2024-03-14 191051](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/e5828d9c-ccde-4699-8591-3eb015b97fa6)
+![Screenshot 2024-03-14 191138](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/6f158c55-7f7d-41f1-924a-ca06221f34fa)
+![Screenshot 2024-03-14 191113](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/5cfd8031-b3b3-43ce-9a85-ef27c5aad88f)
+
+
+https://github.com/manivannan-sudha/youtube-clone/assets/96440547/5727dbad-9c55-48a5-83a3-d35cc5c698f2
+
 
 ## Features
 
@@ -74,13 +85,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 For any inquiries or feedback, please contact [manitinku38@gmail.com](mailto:manitinku38@gmail.com).
 
 
-## Screenshots
-
-![Screenshot 2024-03-14 190806](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/3f0e6537-a7c4-4113-8a63-57ed3ba30034)
-
-![Screenshot 2024-03-14 191051](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/e5828d9c-ccde-4699-8591-3eb015b97fa6)
-![Screenshot 2024-03-14 191138](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/6f158c55-7f7d-41f1-924a-ca06221f34fa)
-![Screenshot 2024-03-14 191113](https://github.com/manivannan-sudha/youtube-clone/assets/96440547/5cfd8031-b3b3-43ce-9a85-ef27c5aad88f)
-
-
-https://github.com/manivannan-sudha/youtube-clone/assets/96440547/5727dbad-9c55-48a5-83a3-d35cc5c698f2
